@@ -1,0 +1,7 @@
+{
+  "_description": "Computer with an NVIDIA GPU that holds the whole model (gemma4:26b: about 18 GB of GPU memory, e.g. 24 GB RTX 3090/4090). Used by run_vlm_gpu.cmd. Warns when the model does not fit in GPU memory.",
+  "device": "gpu",
+  "timeout": 600,
+  "num_ctx": 16384,
+  "keep_alive": "10m"
+}

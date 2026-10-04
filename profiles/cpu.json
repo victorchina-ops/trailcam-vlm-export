@@ -1,0 +1,9 @@
+{
+  "_description": "Computer without a suitable GPU: the model runs in system memory on the CPU (gemma4:26b needs about 20 GB of free RAM; 32 GB installed or more). Much slower; a long timeout, and the model stays loaded for an hour between runs. Used by run_vlm_cpu.cmd. Same image sizes and frames as the GPU profile, so answers are comparable and the cache is shared.",
+  "_threads": "num_threads null lets Ollama use the physical cores; set a number to leave cores free for other work.",
+  "device": "cpu",
+  "timeout": 3600,
+  "num_ctx": 16384,
+  "num_threads": null,
+  "keep_alive": "1h"
+}

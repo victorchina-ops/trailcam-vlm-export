@@ -1,0 +1,20 @@
+{
+  "input_dir": "images",
+  "output_dir": "exports",
+  "cache_dir": ".cache",
+  "model": "gemma4:26b",
+  "ollama_host": "http://localhost:11434",
+  "max_side": 2048,
+  "event_max_side": 1280,
+  "max_event_frames": 6,
+  "event_gap_seconds": 60,
+  "camera_id_mode": "folder",
+  "camera_id_pattern": null,
+  "events": true,
+  "timeout": 600,
+  "recursive": true,
+  "device": "auto",
+  "num_ctx": 16384,
+  "num_threads": null,
+  "keep_alive": null
+}

@@ -1,0 +1,32 @@
+# Local photos, outputs, caches and environments stay private.
+images/*
+!images/.gitkeep
+exports/*
+!exports/.gitkeep
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.jpg
+*.JPG
+*.jpeg
+*.png
+*.csv
+# Non-default output and cache folders, run summaries and every supported photo format.
+exports?*/
+cache*/
+.cache*/
+*_run.json
+*.webp
+*.tif
+*.tiff
+*.bmp
+*.WEBP
+*.TIF
+*.TIFF
+*.BMP
+*.PNG
+*.JPEG
+# Developer-only validation scripts with local paths.
+validate_runs*.ps1

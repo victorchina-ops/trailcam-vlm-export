@@ -1,0 +1,4 @@
+# Minimal runtime dependencies; the model runs in a separate local Ollama server.
+requests>=2.31
+Pillow>=10.0
+numpy>=1.26
